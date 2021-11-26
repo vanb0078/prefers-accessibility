@@ -61,13 +61,20 @@ html {
 
 }
 
+@media (prefers-reduced-motion) {
+
+  img {
+    animation: none;
+  }
+
+}
+
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
- * =============
- * Write your “prefers” media queries here, between these two `stylelint` comments.
- * Unfortunately, Markbot, is a little too old to understand them. :(
- * =============
- */
+* =============
+};
+* =============
+*/
 
 /* stylelint-enable */
