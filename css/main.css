@@ -69,12 +69,14 @@ html {
 
 }
 
-/* stylelint-disable media-feature-name-no-unknown */
+/* @media (prefers-color-scheme: dark) {
 
-/**
-* =============
-};
-* =============
-*/
+  main {
+    background-color: #222;
+  }
 
-/* stylelint-enable */
+  h1 {
+    opacity: .5;
+  }
+
+} */
